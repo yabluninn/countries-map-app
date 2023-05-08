@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/639cd4a693.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="app">
+      <div class="user-section">
+        <div class="us-container"></div>
+      </div>
+      <div class="map-section">
+        <div class="ms-container">
+          <div class="search-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              placeholder="Enter country name..."
+              class="search-input"
+            />
+            <button class="search-btn">Search</button>
+          </div>
+          <div id="map"></div>
+        </div>
+      </div>
+      <!-- <div id="popup">
+        <h2 id="popup-title">Title</h2>
+        <p id="popup-description">Description</p>
+      </div> -->
+      <!-- <div class="modal-header-block">
+        <img
+          src="https://flagsapi.com/BE/shiny/64.png"
+          alt="flag"
+          class="modal-country-flag"
+        />
+        <p class="modal-header-title"></p>
+      </div> -->
+      <!-- <div class="modal-main-info-block">
+        <div class="modal-info-subblock">
+          <i class="fa-solid fa-landmark-flag"></i>
+          <p class="modal-capital-label">Capital</p>
+        </div>
+        <div class="modal-info-subblock">
+          <i class="fa-solid fa-people-group"></i>
+          <p class="modal-population-label">10000</p>
+        </div>
+      </div> -->
+      <!-- <div class="modal-button-subblock">
+        <button class="modal-more-btn">More info</button>
+      </div> -->
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
